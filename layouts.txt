@@ -1,0 +1,8 @@
+English (qwerty)=`1234567890-=||qwertyuiop[]||asdfghjkl;'#||\zxcvbnm,./
+German (qwertz)=^1234567890ß´||qwertzuiopü+||asdfghjklöä#||<yxcvbnm,.-
+French (azerty)=²&é"'(-è_çà)=||azertyuiop^$||qsdfghjklmù*||<wxcvbn,;:!
+French (azerty amélioré)=@àéèê()‘’«»'^||azertyuiop-+||qsdfghjklm/*||<wxcvbn.,:;
+French (bépo)=$"«»()@+-/*=%||bépoè^vdljzw||auie,ctsrnmç||êàyx.k’qghf
+Belgian (azerty)=²&é"'(§è!çà)-||azertyuiop^$||qsdfghjklmùµ||<wxcvbn,;:=
+French Canadian (qwerty)=°1234567890-=||qwertyuiop^ç||asdfghjkl;èà||ùzxcvbnm,.é
+Canadian multilingual(qwerty)=/1234567890-=||qwertyuiop^ç||asdfghjkl;èà||ùzxcvbnm,.é
