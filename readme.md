@@ -10,11 +10,25 @@ It's mission is to facilitate the use of macros, currently only compatible with 
 
 ______
 
+## Using
+
+>>  []~(￣▽￣)~*
+
+Just launch the `Onyx4Oryx.py` file from your command prompt and follow along!
+
+**Requirements:** You'll need to have python3.x installed to make it work ;-)
+
+______
+
 ## Contributing
 
 ### How to
 
+>>  (￣y▽￣)╭
+
 Onyx4Oryx could use some help in the layout's collection: **don't hesitate and send your layout as a _one-line string_ according to the pattern from `layouts.txt` if you can't find yours!**
+
+>>  (⌐■_■)
 
 Here is how to format your string:
 
@@ -34,7 +48,9 @@ Here is how to format your string:
 > * 4th row = `\zxcvbnm,./`
 
 
+
 ### WIP
+>>  ㄟ( ▔, ▔ )ㄏ      ---      ヾ(￣▽￣)
 ```
 [X] Belgian
 [X] Bépo 
