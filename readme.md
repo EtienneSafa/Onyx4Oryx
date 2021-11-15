@@ -12,7 +12,7 @@ ______
 
 ## Using
 
->>  []~(￣▽￣)~*
+>>  ヾ(•ω•`)o
 
 Just launch the `Onyx4Oryx.py` file from your command prompt and follow along!
 
