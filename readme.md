@@ -40,7 +40,7 @@ Here is how to format your string:
 
 **example of formatted layout string from `layouts.txt`:**
 
-> `English (qwerty)=`1234567890-=||qwertyuiop[]||asdfghjkl;'#||\zxcvbnm,./`
+> ```English (qwerty)=`1234567890-=||qwertyuiop[]||asdfghjkl;'#||\zxcvbnm,./```
 
 > * 1st row = `1234567890-=`
 > * 2nd row = `qwertyuiop[]`
