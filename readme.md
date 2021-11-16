@@ -2,11 +2,11 @@
 
 ## Onyx4Oryx
 
-Onyx4Oryx is a tiny bit of code dedicated to non-qwerty users of Moonlander and Ergodox's ZSA split keyboards.
+Onyx4Oryx is a tiny chunck of code dedicated to non-qwerty users of Moonlander and Ergodox's ZSA split keyboards.
 
 It's mission is to facilitate the use of macros, currently only compatible with qwerty keyboards, by translating your foreign keystrokes into qwerty keystrokes so you know what to choose from the menu :-)
 
-**Hope it's helpfull, have fun !**
+**Hope it's helpfull, have fun ! ^^**
 
 ______
 
@@ -17,6 +17,13 @@ ______
 Just launch the `Onyx4Oryx.py` file from your command prompt and follow along!
 
 **Requirements:** You'll need to have python3.x installed to make it work ;-)
+
+______
+
+
+## Development
+
+Onyx4Oryx is under development. The big idea would be to give it a nice, simple GUI and have a bit of fun with it, even turn it into a learning project ^^
 
 ______
 
