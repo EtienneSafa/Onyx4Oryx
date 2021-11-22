@@ -1,9 +1,27 @@
-from time import sleep as sleep
 
 # Features' status last checkup date
 #   check list: 
 #   - nb of keystrokes in macros
 date = '2020-11-19'
+
+
+
+from time import sleep as sleep
+import gui.py
+
+
+
+
+
+def check_user_input(input):
+    try:
+        # Convert it into integer
+        val = int(input)
+        return("INT")
+    except ValueError:
+        return("STR")
+
+
 
 
 
@@ -29,26 +47,27 @@ knownLayouts.sort()
 # Inquire for user choice
 print ("\n   (⌐■_■)  >>  Onyx4Oryx will translate the keys you need for your macros if you're working on a non-qwerty keyboard.\n           >>  Here are the layouts currently available at development stage:\n")
 
-for layout in knownLayouts:
-    print(f"          [{knownLayouts.index(layout)}]  {layout}")
-
-
-sleep(2)
 
 while True:
+    for layout in knownLayouts:
+        print(f"          [{knownLayouts.index(layout)}]  {layout}")
+
+
+    sleep(1)
 
     choice = input("\n\n ╰(*°▽°*)╯ >>  Which layout wou'd you like to translate?\n\n       you >>  ")
 
 
     while True:
-        if isinstance(choice, int):
+        if check_user_input(choice) == "INT":
+            choice = int(choice)
             if choice in range(0,len(knownLayouts)-1):
                 break
             else:
-                choice = int(input("\n\n  '￣へ￣  >>  That's not in the list...\n\n       you >>  "))
+                choice = (input("\n\n  '￣へ￣  >>  That's not in the list...\n\n       you >>  "))
                 pass
         else:
-            choice = int(input("\n\n o(≧口≦)o  >>  That's not a number...\n\n       you >>  "))
+            choice = (input("\n\n o(≧口≦)o  >>  That's not a number...\n\n       you >>  "))
             pass
 
     usrLayout=knownLayouts[choice]

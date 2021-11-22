@@ -1,6 +1,6 @@
 ## TODO
 
-[ ] Experiment PysimpleGUIQt
+[ ] Experiment PysimpleGUIQt https://pysimplegui.readthedocs.io/en/latest/
 > Ideas :
 > - Minimalist black window with subtle gradient and slight shadow
 > - no separators between panels
